@@ -1,0 +1,63 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+canvas{
+    background-color: white;
+    display: block;
+    position: relative;
+}
+#pen{
+    position: absolute;
+    top: 1em;
+    left: 1em;
+
+}
+
+#eraser{
+    position: absolute;
+    top: 3.5em;
+    left: 1em;
+}
+
+#clear{
+    position: absolute;
+    top: 1em;
+    right: 1em;
+}
+.icon {
+    width: 2em; height: 2em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+}
+
+.circle{
+    border: 1px solid gainsboro;
+    position: absolute;
+    left: 1.2em;
+    width: 1.5em; height: 1.5em;
+    border-radius: 50%;
+}
+#red{
+    top: 6.5em;
+    background-color: red;
+}
+#green{
+    top: 8.5em;
+    background-color: green;
+}
+#blue{
+    top: 10.5em;
+    background-color: blue;
+}
+#yellow{
+    top: 12.5em;
+    background-color: yellow;
+}
